@@ -188,7 +188,6 @@ a{
 /* End of Hero Section Style */
 
 /* About Me Section */
-
 .about{
 	width: 100%;
 	padding: 175px 0px;
@@ -196,7 +195,7 @@ a{
 }
 .about img{
 	height: auto;
-	width: 430px;
+	width: 480px;
 }
 .about-text{
 	width: 550px;
@@ -229,17 +228,26 @@ a{
 	font-size: 18px;
 	margin-bottom: 45px;
 }
-button{
+.but{
+    padding: 10px 30px;
 	background-color:#f9004d;
 	color: white;
+    font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
 	padding: 13px 30px;
 	border-radius: 30px;
 	transition: .4s; 
+    justify-content: space-between;  
 }
-button:hover{
+.but + .but {
+    margin-left: 100px;
+}
+.but:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
