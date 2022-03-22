@@ -215,6 +215,7 @@ a {
 .about img {
     height: auto;
     width: 480px;
+    padding: 20px;
 }
 
 .about-text {
